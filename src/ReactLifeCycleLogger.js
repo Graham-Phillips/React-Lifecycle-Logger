@@ -11,7 +11,7 @@ import React, {Component} from 'react'
 
 export default (Wrapped) => {
 
-  let methods = ['componentWillMount', 'componentDidMount', 'componentWillReceiveProps', 'shouldComponentUpdate', 'componentWillUpdate', 'componentDidUpdate', 'compyouonentWillUnmount', 'getDerivedStateFromProps', 'getSnapshotBeforeUpdate', 'getSnapshotAfterUpdate', 'UNSAFE_componentWillMount', 'UNSAFE_componentWillReceiveProps', 'UNSAFE_componentWillUpdate'];
+  let methods = ['componentWillMount', 'componentDidMount', 'componentWillReceiveProps', 'shouldComponentUpdate', 'componentWillUpdate', 'componentDidUpdate', 'componentWillUnmount', 'getDerivedStateFromProps', 'getSnapshotBeforeUpdate', 'getSnapshotAfterUpdate', 'UNSAFE_componentWillMount', 'UNSAFE_componentWillReceiveProps', 'UNSAFE_componentWillUpdate'];
 
   let oldMethods = {}
 
